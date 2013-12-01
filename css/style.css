@@ -1,0 +1,207 @@
+/*================ 
+	gerais
+ ================*/
+
+@import url(http://fonts.googleapis.com/css?family=Electrolize);
+
+
+@font-face {
+    font-family: 'collegeregular';
+    src: url('fonts/college-webfont.eot');
+    src: url('fonts/college-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/college-webfont.woff') format('woff'),
+         url('fonts/college-webfont.ttf') format('truetype'),
+         url('fonts/college-webfont.svg#collegeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ebrimaregular';
+    src: url('fonts/ebrima-webfont.eot');
+    src: url('fonts/ebrima-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ebrima-webfont.woff') format('woff'),
+         url('fonts/ebrima-webfont.ttf') format('truetype'),
+         url('fonts/ebrima-webfont.svg#ebrimaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+	margin:0;
+	padding:0;
+	}
+
+body{
+	background-image: url('../img/background.png');
+	color:#ffffff;
+
+}
+
+
+
+h1,input[value="Name"]{
+	font-size: 70px;
+}
+
+h1, 
+h2,
+h3, 
+h4, 
+h5,
+h6 {
+	color: #ffffff;
+	font-family: 'collegeregular';	
+}
+
+p, small{
+	color:#ffffff;
+	text-align: justify;
+}
+
+
+span, a{
+	color:#4DFF7A;
+}
+
+a:link {
+	text-decoration:none;
+	color: #4DFF7A;
+}
+
+a:hover{
+	color: #ffffff;
+}
+
+textarea{
+	width: 97%;
+}
+
+
+input[type="email"], 
+input[type="text"],
+textarea {
+	background-image: url('../img/background.png');
+	border-color: #ccc;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+ul li{
+	float: left;
+	margin-left: 5px;
+	border:none;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    list-style: none;
+ }
+
+ul li:hover{
+	border:solid 3px #4DFF7A;
+
+ }
+
+ p{
+ 	font-family: 'tahoma';
+ }
+
+ #fastdescription{
+ 	font-family: 'ebrimaregular';
+ 	font-weight: bold;
+ }
+
+
+
+
+/*========================================
+	top-right-left-bottom spaces
+========================================*/
+
+.minspace{
+	margin-top: 40px;
+}
+
+.medspace{
+	margin-top: 50px;
+}
+
+.maxspace{
+	margin-top: 100px;
+}
+
+.minleftspace{
+	margin-left: 11px;
+}
+
+.medleftspace{
+	margin-left: 35px;
+}
+
+.lessminleftspace{
+	margin-left: -6px;
+}
+
+.lessmaxleftspace{
+	margin-left: -70px;
+}
+
+
+/*==================================
+		EDIT
+=====================================*/
+
+textarea[name="help"]{
+	height: 120px;
+}
+
+textarea[name="abouttext"]{
+	height: 130px;
+}
+
+textarea[name="description"]{
+	height: 50px;
+}
+
+#input{
+	color: #4DFF7A;
+	width: 100px;
+}
+
+ #title1{
+	color: #4DFF7A;
+	font-size: 70px;
+	font-family: 'collegeregular';
+	height: 100px;
+	width: 150px;
+}
+
+ #title{
+	color: #4DFF7A;
+	font-size: 70px;
+	font-family: 'collegeregular';
+	height: 100px;
+	width: 350px;
+}
+
+ #subtitle{
+	color: #4DFF7A;
+	font-size: 30px;
+	font-family: 'collegeregular';
+	height: 50px;
+}
+
+#footer{
+	font-size: 10px;
+	font-family: 'collegeregular';
+	width: 400px;
+}
+
+#btnsave{
+	position: fixed;
+	z-index: 999;
+	top: 45px;
+	right: 40px;
+
+}

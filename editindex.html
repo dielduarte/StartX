@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Tema Livre</title>
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet"  href="css/lightbox.css" />
+
+      <script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+      <script type="text/javascript" src="js/lightbox.js"></script>
+
+
+  </head>
+  <body >
+    <div class='container'>
+      <form action="php/editindex.php" method="POST">
+
+      <!--=======================================
+        NAME OF PROJECT AND SOCIAL NETWORKS
+      ===========================================-->
+      <div class="row medspace">
+        <div class="span4 offset4">
+          <input type="text" value="Name" MAXLENGTH=8 id="title1" name="name">
+        </div>
+        <div class="span4">
+          <input type="text" value="URL Facebook" id="input" name="facebook"> | <input type="text" value="URL Twitter" id="input" name="twitter">
+        </div>
+      </div>
+      <div class="row">
+        <div class="span4 offset5">
+          <input type="text" value="Your name" id="input" name="yourname">
+        </div>
+      </div>
+
+      <!--============================
+         DESCRIPTION FAST OF PROJECT
+      ================================-->
+      <div class="row minspace">
+        <div class="span7 offset2" id="fastdescription">
+          <textarea name="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, repellendus, explicabo, unde iure ipsam voluptas odio debitis qui cumque.</textarea>
+          </p>
+        </div>
+      </div>
+
+      <!--==========================
+               GALLERY
+      =============================-->
+      <div class="row medspace">
+        <div class="span12">
+          <input type="text" value="Title" id="subtitle" name="titlegallery">
+      </div>
+      <div class="row">
+          <ul class="medleftspace">
+            <li> 
+              <a href="img/foto.png" rel="lightbox[roadtrip]" title="" >
+                  <img src= "img/foto.png"    class ="image"/> 
+              </a>  
+            </li>
+            <li>           
+              <a href="img/foto.png" rel="lightbox[roadtrip]" title="" >
+                  <img src= "img/foto.png"    class ="image"/> 
+              </a>   
+            </li>
+            <li>  
+              <a href="img/foto.png" rel="lightbox[roadtrip]" title="" >
+                  <img src= "img/foto.png"    class ="image"/> 
+              </a>  
+            </li>
+            <li>  
+              <a href="img/foto.png" rel="lightbox[roadtrip]" title="" >
+                  <img src= "img/foto.png"    class ="image"/> 
+              </a>  
+            </li>
+          </ul>  
+        </div>  
+        
+      </div>
+        
+
+      <!--=========================
+            ABOUT PROJECT
+      =============================-->
+      <div class="row medspace">
+        <div class="span12">
+          <input type="text" value="Title" name ="abouttitle" id="subtitle">
+            <textarea name="abouttext">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, facere, voluptate, omnis, porro minima nemo eaque ratione saepe totam cum pariatur obcaecati voluptates in? Repellat, natus quaerat ab minima autem.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis aliquid ea facere illum! Reiciendis voluptatem rem tempora veritatis molestias neque reprehenderit! Ea, impedit, dolor eligendi quod deleniti quisquam repudiandae excepturi.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, atque consequuntur assumenda voluptatibus sit at ad optio molestias!
+            </textarea>
+        </div> 
+      </div>
+
+      <!--==========================
+        DOWNLOAD PROJECT
+      ==============================-->
+      <div class="row maxspace">
+        <div class="span8 offset3">
+          <input type="text" name ="titledownload" value="DOWNLOAD" id="title">
+        </div> 
+      </div>
+      <div class="row minspace">
+        <div class="span2 offset4">
+          <button class="btn btn-large btn-success" type="button"><i class='icon-download icon-white'></i> BAIXAR</button>
+        </div>
+        <div class="span4 minleftspace">
+          <textarea name="subtitledownload" >Lorem ipsum dolor sit amet consectetur adipisic.</textarea> 
+        </div>
+      </div>
+
+      <!--=========================
+        HOW USE TITLE
+      =============================-->
+      <div class="row medspace">
+        <div class="span12">
+          <input type="text" value="Title" id="subtitle" name="howusetitle">
+
+          <!--==========================
+              HOW USE ACCORDION 
+          ==============================-->
+            <div class="accordion minspace" id="accordion2">
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                    <input type="text" value="1° title" name="title1"> 
+                  </a>
+                </div>
+                <div id="collapseOne" class="accordion-body collapse in">
+                  <div class="accordion-inner">
+                    <textarea name="subtitle1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, commodi, reiciendis similique ipsam eius earum consequuntur porro nemo natus ad neque voluptates dignissimos totam cumque sapiente dolorem nihil ducimus modi.</textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                   <input type="text" value="2° title" name="title2">
+                  </a>
+                </div>
+                <div id="collapseTwo" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <textarea name="subtitle2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, commodi, reiciendis similique ipsam eius earum consequuntur porro nemo natus ad neque voluptates dignissimos totam cumque sapiente dolorem nihil ducimus modi.</textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                   <input type="text" value="3° title" name="title3">
+                  </a>
+                </div>
+                <div id="collapseThree" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <textarea name="subtitle3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, commodi, reiciendis similique ipsam eius earum consequuntur porro nemo natus ad neque voluptates dignissimos totam cumque sapiente dolorem nihil ducimus modi.</textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-group">
+                <div class="accordion-heading">
+                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapsefor">
+                   <input type="text" value="4° title" name="title4"> 
+                  </a>
+                </div>
+                <div id="collapsefor" class="accordion-body collapse">
+                  <div class="accordion-inner">
+                    <textarea name="subtitle4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, commodi, reiciendis similique ipsam eius earum consequuntur porro nemo natus ad neque voluptates dignissimos totam cumque sapiente dolorem nihil ducimus modi.</textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--================================
+              CONTACT  AND HELP
+        ====================================-->
+        <div class="row medspace">
+
+          <!--CONTACT-->
+          <div class="span8">
+            <input type="text" value="Title" id="subtitle" name="titlecontact">
+              <table>
+                <tr>
+                  <td><input type="text" placeholder="Nome" name="nome" value="" ></td>
+                  <td><input type="email" placeholder="E-mail" name="email" value="" ></td>
+                </tr>
+                <tr>
+                  <td COLSPAN=2><textarea rows=5  placeholder="Texto" ></textarea></td>
+                </tr>
+                <tr>
+                  <td COLSPAN=2><button class="btn btn-success" type="button" style= "float:right;">Enviar</button></td>
+                </tr>
+              </table>
+          </div>
+
+          <!--HELP-->
+          <div class="span4">
+              <input type="text" value="Title" id="subtitle" name="titlehelp">
+              <textarea name="help">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, eaque, distinctio, vitae, quis nostrum repellat quae illum esse mollitia maxime facilis officiis asperiores fugiat ex delectus nihil ad illo! Illum.
+              </textarea>
+          </div>
+        </div>
+        <!--=============================
+          FOOTER
+        =================================-->
+        <div class="row medspace">
+          <div class="span12">
+           <input type="text" value="2013 - @Lorem Loremipsum - lorem os ipsum lorem" id="footer" name="footer"> 
+          </div>  
+        </div>
+
+       <input name="enviar" type="submit" id="btnsave" value="Exportar Tema" class='btn btn-success btn-large'/>
+    </form>
+    </div>
+       <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </body>
+</html>
